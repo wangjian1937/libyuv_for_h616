@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="YUV"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuvconvert">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/yuvconvert" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuvconvert"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuvconvert/fast">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/yuvconvert" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuvconvert/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuv_shared">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/lib/libyuv.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuv_shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuv_shared/fast">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/lib/libyuv.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuv_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuv">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/libyuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuv"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yuv/fast">
+				<Option output="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/libyuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/aarch64-none-linux-gnu"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include/c++/9.2.1/backward"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../lib/gcc/aarch64-none-linux-gnu/9.2.1/../../../../aarch64-none-linux-gnu/include"/>
+					<Add directory="/home/wangjian/workO/OrangePi_H616/orangepi-build/toolchains/gcc-arm-9.2-2019.12-x86_64-aarch64-none-linux-gnu/bin/../aarch64-none-linux-gnu/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 yuv/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/wangjian/workS/work/RGBTVLightFinal/libyuv"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangjian/workS/work/RGBTVLightFinal/libyuv/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_common.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_gcc.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_mmi.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_msa.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_neon.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_neon64.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/compare_win.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_argb.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_from.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_from_argb.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_jpeg.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_to_argb.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/convert_to_i420.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/cpu_id.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/mjpeg_decoder.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/mjpeg_validate.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/planar_functions.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_any.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_argb.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_common.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_gcc.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_mmi.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_msa.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_neon.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_neon64.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/rotate_win.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_any.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_common.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_gcc.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_mmi.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_msa.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_neon.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_neon64.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/row_win.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_any.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_argb.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_common.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_gcc.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_mmi.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_msa.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_neon.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_neon64.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_uv.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/scale_win.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/source/video_common.cc">
+			<Option target="yuv_shared"/>
+			<Option target="yuv"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/util/yuvconvert.cc">
+			<Option target="yuvconvert"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/CM_linux_packages.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wangjian/workS/work/RGBTVLightFinal/libyuv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
