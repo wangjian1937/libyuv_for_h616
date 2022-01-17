@@ -17,7 +17,7 @@ You can also browse the [docs directory][2] for more documentation.
 [1]: ./docs/getting_started.md
 [2]: ./docs/
 
-## note
+### note
 
 填坑之一：上面的方法下载的sdk在有些gcc交叉编译环境下不能编译通过　需要通过gclient下载   
 方法见libyuv/doc下的deprecated_builds.md     
@@ -26,5 +26,5 @@ https://www.chromium.org/developers/how-tos/install-depot-tools
 然后在执行       
 gclient config https://chromium.googlesource.com/libyuv/libyuv
 
-## make libyuv.so for linux at h616
+## CLion make libyuv.so for linux at h616 
 cmake && make 
