@@ -26,5 +26,5 @@ https://www.chromium.org/developers/how-tos/install-depot-tools
 然后在执行       
 gclient config https://chromium.googlesource.com/libyuv/libyuv
 
-## CLion make libyuv.so for linux at h616 
+### CLion make libyuv.so for linux at h616 
 cmake && make 
